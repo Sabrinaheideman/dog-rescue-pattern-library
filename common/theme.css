@@ -40,7 +40,7 @@ h5 {
 
 a {
   text-decoration: none;
-  color: var(--colour-secondary);
+  color: var(--color-secondary);
 }
 
 a:hover {
@@ -49,21 +49,21 @@ a:hover {
 }
 
 cite {
-  color: var(--colour-secondary);
+  color: var(--color-secondary);
   font-style: italic;
 }
 
 q {
-  color: var(--colour-secondary);
+  color: var(--color-secondary);
   font-style: italic;
 }
 
 strong {
-  color: var(--colour-secondary);
+  color: var(--color-secondary);
 }
 
 ins {
-  color: var(--colour-secondary);
+  color: var(--color-secondary);
 }
 
 dfn {
@@ -75,14 +75,14 @@ i {
 }
 
 b {
-  color: var(--colour-secondary);
+  color: var(--color-secondary);
 }
 
 mark {
-  background-color: var(--colour-secondary);
+  background-color: var(--color-secondary);
   color: white;
 }
 
 u {
-  color: var(--colour-secondary);
+  color: var(--color-secondary);
 }
