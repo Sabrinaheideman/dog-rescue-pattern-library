@@ -1,14 +1,88 @@
 :root {
   --color-primary: #96c;
   --color-primary-light: #c9f;
-  --colour-secondary: #639;
+  --color-secondary: #639;
   --color-accent: #303;
-  --color-neutral-beige: #666;
 
   --font-primary: "Merriweather", serif;
   --font-secondary: "Open Sans", sans-serif;
 }
 
 html {
+  font-family: var(--font-secondary);
+}
+
+h1 {
+  color: var(--color-primary);
+  font-weight: bold;
   font-family: var(--font-primary);
+}
+
+h2 {
+  color: var(--color-primary-light);
+  font-family: var(--font-primary);
+}
+
+h3 {
+  font-family: var(--font-primary);
+}
+
+h4 {
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+}
+
+h5 {
+  color: var(--color-primary-light);
+  font-style: italic;
+  font-family: var(--font-primary);
+}
+
+a {
+  text-decoration: none;
+  color: var(--colour-secondary);
+}
+
+a:hover {
+  color: var(--color-accent);
+  font-weight: bold;
+}
+
+cite {
+  color: var(--colour-secondary);
+  font-style: italic;
+}
+
+q {
+  color: var(--colour-secondary);
+  font-style: italic;
+}
+
+strong {
+  color: var(--colour-secondary);
+}
+
+ins {
+  color: var(--colour-secondary);
+}
+
+dfn {
+  font-style: italic;
+}
+
+i {
+  font-style: italic;
+}
+
+b {
+  color: var(--colour-secondary);
+}
+
+mark {
+  background-color: var(--colour-secondary);
+  color: white;
+}
+
+u {
+  color: var(--colour-secondary);
 }
