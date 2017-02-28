@@ -1,0 +1,30 @@
+.card {
+  background-color: var(--color-primary-light);
+  color: #fff;
+}
+
+.img-icon {
+  position: relative;
+}
+
+.icon-title {
+  color: #fff;
+}
+
+.triangle {
+  position: absolute;
+  bottom: -26px;
+  left: 10px;
+}
+
+.btn-light {
+  background-color: #fff;
+  border-color: #fff;
+  color: var(--color-primary-light);
+}
+
+.btn-light:hover {
+  background-color: #ddd;
+  border-color: #ddd;
+  color: var(--color-primary-light);
+}
