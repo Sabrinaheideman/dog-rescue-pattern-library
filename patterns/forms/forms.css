@@ -1,0 +1,45 @@
+html {
+  font-family: "Merriweather", serif;
+}
+
+.flag-optional {
+  color: #999;
+}
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before {
+  border-color: #f33;
+}
+
+.error-message {
+  display: none;
+  background-color: #fee;
+  color: #c33;
+}
+
+.error-message-highlighted {
+  background-color: #c33;
+  color: #fff;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message {
+  display: block;
+}
+
+.btn {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: var(--color-primary);
+}
+
+input[type="checkbox"]:checked + label::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256' data-name='Layer 1' viewBox='0 0 256 256'%3E%3Cpath fill='none' stroke='%2396c' stroke-miterlimit='10' stroke-width='50' d='M49.9 130.1l50.8 50.7L206.1 75.2'/%3E%3C/svg%3E")
+}

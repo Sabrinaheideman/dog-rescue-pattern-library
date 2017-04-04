@@ -1,0 +1,8 @@
+html {
+  font-family: "Merriweather", serif;
+}
+
+#footer {
+  background-color: var(--color-primary-light);
+  color: #fff;
+}
