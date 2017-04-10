@@ -1,0 +1,106 @@
+html {
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+ display: inline-block;
+}
+
+.color-brand {
+  color: #568c36;
+}
+
+.color-brand-dark {
+  color: #113c00;
+}
+
+a {
+  color: #568c36;
+}
+
+a:hover {
+  color: #113c00;
+}
+
+.max-length {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.masthead {
+  background-color: var(--color-primary-light);
+}
+
+.nav {
+  position: relative;
+  background-color: var(--color-primary);
+  z-index: 2;
+}
+
+.nav a {
+  display: inline-block;
+  padding: .5rem .75rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus {
+  background-color: var(--color-primary-light);
+  color: #fff;
+}
+
+.about {
+  position: relative;
+}
+
+.about-content {
+  background-color: var(--color-primary-light);
+  color: #fff;
+  position: absolute;
+  bottom: -15;
+  left: 0;
+}
+
+.adopt {
+  background-color: #f5f2f0;
+}
+
+th,
+td {
+  border-color: #dfdcda;
+}
+
+.happytails {
+  background-color: #eeebe9;
+}
+
+.contact {
+  background-color: #dfdcda;
+}
+
+.btn {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: var(--color-primary);
+}
+
+  @media only screen and (min-width: 38em) {
+
+    .about-content {
+      bottom: 0;
+      position: absolute;
+      width: 100%;
+
+      background-color: transparent;
+      background-image: linear-gradient(to bottom, rgba(204, 153, 255, 0), rgba(204, 153, 255, 1));
+    }
+
+
+  }
