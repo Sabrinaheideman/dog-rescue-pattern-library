@@ -57,9 +57,6 @@ a:hover {
 .about-content {
   background-color: var(--color-primary-light);
   color: #fff;
-  position: absolute;
-  bottom: -15;
-  left: 0;
 }
 
 .adopt {

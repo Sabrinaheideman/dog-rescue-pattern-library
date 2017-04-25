@@ -11,12 +11,6 @@
   color: #fff;
 }
 
-.triangle {
-  position: absolute;
-  bottom: -26px;
-  left: 10px;
-}
-
 .btn-light {
   background-color: #fff;
   border-color: #fff;
@@ -27,4 +21,12 @@
   background-color: #ddd;
   border-color: #ddd;
   color: var(--color-primary-light);
+}
+
+.icons-home {
+  color: black;
+}
+
+.icons-home:hover {
+  color: var(--color-primary-light) ;
 }
